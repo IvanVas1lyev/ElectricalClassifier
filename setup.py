@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name="my_classifier",
+    name="model",
     version="0.1",
-    py_modules=["my_classifier"],
+    py_modules=["model"],
     install_requires=[
         "numpy",
         "scikit-learn",
