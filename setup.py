@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name="model",
     version="0.1",
-    py_modules=["model"],
+    packages=find_packages(), 
     install_requires=[
         "numpy",
         "scikit-learn",
